@@ -30,7 +30,7 @@ for product_row in range(2, product_list.max_row + 1):
 
     # logic products with inventory less than 10
     if inventory < 10:
-        products_under_10_inv[int(product_num)] = int(inventory)
+        products_under_10_inv[product_num] = inventory
 
     # add value for total inventory price
     inventory_price.value = inventory * price
